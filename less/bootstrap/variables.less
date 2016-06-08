@@ -1,0 +1,32 @@
+//** Number of columns in the grid.
+@grid-columns: 14;
+
+//** Padding between columns. Gets divided in half for the left and right.
+@grid-gutter-width: 20px;
+
+// Large screen / wide desktop
+//** Deprecated `@screen-lg` as of v3.0.1
+@screen-lg: 1010px;
+@screen-lg-min: @screen-lg;
+//** Deprecated `@screen-lg-desktop` as of v3.0.1
+@screen-lg-desktop: @screen-lg-min;
+
+// Large screen / wide desktop
+@container-large-desktop:      980px;
+//** For `@screen-lg-min` and up.
+@container-lg:                 @container-large-desktop;
+
+@screen-md:                  @screen-lg;
+@screen-md-min:              @screen-md;
+//** Deprecated `@screen-desktop` as of v3.0.1
+@screen-desktop:             @screen-md-min;
+
+@container-desktop:            @container-large-desktop;
+//** For `@screen-md-min` and up.
+@container-md:                 @container-desktop;
+
+
+
+@text-color: @base-color;
+
+@import "../inc/variables.less";
